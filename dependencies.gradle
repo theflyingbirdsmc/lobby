@@ -7,6 +7,8 @@ dependencies {
     implementation 'Plugin:CommandPanels:3.+'
     // implementation 'Plugin:CoreProtect:22.+'
     implementation 'Plugin:DecentHolograms:2.8.+'
+    implementation 'Plugin:Essentials:2.20.+'
+    implementation 'Plugin:EssentialsSpawn:2.20.+'
     implementation 'Plugin:FastAsyncWorldEdit:2.10.1-SNAPSHOT-790-a7e4d19'
     implementation 'Plugin:GadgetsMenu:5.17.+'
     implementation 'Plugin:HexNicks:3.1.1'
