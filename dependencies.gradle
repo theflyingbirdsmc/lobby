@@ -20,6 +20,7 @@ dependencies {
     implementation 'Plugin:PlaceholderAPI:2.11.+'
     implementation 'Plugin:ProtocolLib:5.2.+'
     implementation 'Plugin:Plan-Bungee:5.+'
+    implementation 'Plugin:StreamingDrops:14.1'
     implementation 'Plugin:TAB:4.1.4'
     implementation 'Plugin:Vault:1.7.+'
     implementation 'Plugin:ViaVersion:5.0.+'
