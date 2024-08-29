@@ -45,7 +45,7 @@ Discord:
   Webhook_Url: ${STREAMINGDROPS_DISCORD_WEBHOOK}
   Username: TFBDrops
 UseSimpleConnection: false
-GlobalStreamerTag: '#TFBDrops'
+GlobalStreamerTag: 'TFBDrops'
 UseCustomMetrics: true
 VerifyAccount: false
 StreamerDrops:
