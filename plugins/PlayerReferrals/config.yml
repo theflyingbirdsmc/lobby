@@ -14,7 +14,7 @@ host: 'tfb-network-db'
 port: '3306'
 database: 'tfb_network_playerreferals'
 username: 'tfb_network'
-password: '$Z@jJKSLcd7xUekU5qF&VW3#ndU&mm'
+password: 'ifFfF4cUeEYVXCZ4a5494sjVS8oBZL'
 table-prefix: 'ref_'
 
 # If true, players are able to refer each other

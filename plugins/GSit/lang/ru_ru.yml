@@ -54,7 +54,6 @@ Messages:
   action-crawl-world-error: '[P]&c Вы не можете ползать в этом мире!'
   action-crawl-region-error: '[P]&c Вы не можете ползать в этом регионе!'
   action-crawl-info: '&aИспользуйте &6 <lang:key.sneak>&a, чтобы встать.'
-  
   action-emote-none-error: '[P]&c Вы не используете эмоцию сейчас!'
   action-emote-stop-error: '[P]&c Вы не можете перестать использовать эмоцию!'
   action-emote-stop: '[P]&a Вы перестали использовать эмоцию.'

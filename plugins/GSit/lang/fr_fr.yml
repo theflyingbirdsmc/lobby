@@ -54,7 +54,6 @@ Messages:
   action-crawl-world-error: '[P]&c Vous ne pouvez pas ramper dans ce monde !'
   action-crawl-region-error: '[P]&c Vous ne pouvez pas ramper dans cette zone !'
   action-crawl-info: '&aUtiliser votre touche&6 <lang:key.sneak>&a pour vous lever.'
-  
   action-emote-none-error: '[P]&c You''re not using an emote right now!'
   action-emote-stop-error: '[P]&c You can''t stop emoting!'
   action-emote-stop: '[P]&a You stopped emoting.'

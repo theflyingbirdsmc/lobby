@@ -54,7 +54,6 @@ Messages:
   action-crawl-world-error: '[P]&c Kamu tidak bisa merangkak di dunia ini!'
   action-crawl-region-error: '[P]&c Kamu tidak bisa merangkak di daerah ini!'
   action-crawl-info: '&aPakai key&6 <lang:key.sneak>&a mu untuk berdiri'
-  
   action-emote-none-error: '[P]&c Kamu tidak menggunakan emote sekarang!'
   action-emote-stop-error: '[P]&c Kamu tidak bisa menghentikan emote!'
   action-emote-stop: '[P]&a Kamu menghentikan emote.'

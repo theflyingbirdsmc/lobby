@@ -54,7 +54,6 @@ Messages:
   action-crawl-world-error: '[P]&c Nemôžeš sa plaziť v tomto svete!'
   action-crawl-region-error: '[P]&c Nemôžeš sa plaziť v tomto regióne!'
   action-crawl-info: '&aPouži&6 <lang:key.sneak>&a klávesu pre vstatie'
-  
   action-emote-none-error: '[P]&c Momentálne nepoužívaš emote!'
   action-emote-stop-error: '[P]&c Nemôžeš zastaviť emote!'
   action-emote-stop: '[P]&a Zastavil/a si emote.'

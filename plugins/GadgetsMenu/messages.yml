@@ -502,6 +502,30 @@ GUI-Menus:
         Lore:
         - '&7Open up to 250 Eggs at the'
         - '&7same time.'
+      Open-Multiple-Boxes-Type-1:
+        Name: '&aOpen 20 Boxes'
+        Material: NETHER_STAR
+        Slot: 19
+        Number-Of-Boxes: 20
+        Lore:
+        - '&7Open up to 20 boxes at the'
+        - '&7same time.'
+      Open-Multiple-Boxes-Type-2:
+        Name: '&aOpen 50 Boxes'
+        Material: NETHER_STAR
+        Slot: 22
+        Number-Of-Boxes: 50
+        Lore:
+        - '&7Open up to 50 boxes at the'
+        - '&7same time.'
+      Open-Multiple-Boxes-Type-3:
+        Name: '&aOpen 250 Boxes'
+        Material: NETHER_STAR
+        Slot: 25
+        Number-Of-Boxes: 250
+        Lore:
+        - '&7Open up to 250 boxes at the'
+        - '&7same time.'
   Confirm-Open-Multiple-Boxes-Menu:
     GUI-Name: Confirm Open Multiple Eggs
     Items:
@@ -998,3 +1022,5 @@ Player-Receive-Menu-Item: '{PREFIX}&eA menu selector has been added into your in
 Reset-Pet-Name: '&eSuccessfully reset the pet name.'
 Reset-Pet-Name-For-Player: '&eSuccessfully reset {PLAYER} {TYPE} pet''s name.'
 Invalid: Invalid
+Not-Allow-Due-To-Entity-Nearby: '{PREFIX}&cMake sure no entity/player within the area
+  before activating the cosmetic.'
