@@ -6,7 +6,7 @@ dependencies {
     implementation 'Plugin:ChatControlRed:10.28.0'
     implementation 'Plugin:CommandPanels:3.21.4.1'
     // implementation 'Plugin:CoreProtect:22.+'
-    implementation 'Plugin:DecentHolograms:2.8.11'
+    // implementation 'Plugin:DecentHolograms:2.8.11'
     implementation 'Plugin:Essentials:2.21.0-dev+115-6157668'
     implementation 'Plugin:EssentialsSpawn:2.21.0-dev+115-6157668'
     implementation 'Plugin:EssentialsGeoIP:2.21.0-dev+110-f1a5caf'
