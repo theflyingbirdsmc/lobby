@@ -16,6 +16,7 @@ boolean:
   'false': 'no'
 date_format: MM/dd/yy HH:mm:ss
 debug: false
+cloud_allow_unverified_expansions: true
 expansions:
   player:
     ping_value:
