@@ -7,11 +7,11 @@ facing: 0.0
 down-origin: false
 pages:
 - lines:
-  - content: '%javascript_lobby_hologram_1,{player_locale_short}%'
+  - content: '%javascript_lobby_hologram_1,{luckperms_meta_tfb-language}%'
     height: 0.3
   - content: '&6'
     height: 0.3
-  - content: '%javascript_lobby_hologram_3,{player_locale_short}%'
+  - content: '%javascript_lobby_hologram_3,{luckperms_meta_tfb-language}%'
     height: 0.3
   actions:
     LEFT:

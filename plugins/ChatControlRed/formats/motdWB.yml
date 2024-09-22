@@ -11,11 +11,11 @@ Parts:
   Header:
     Message:
     - ' '
-    - '<center>%javascript_motdWB_header,{player_locale_short}%'
+    - '<center>%javascript_motdWB_header,{luckperms_meta_tfb-language}%'
   Vote:
     Message:
     - ' '
-    - '<center>%javascript_motdWB_1,{player_locale_short}%'
+    - '<center>%javascript_motdWB_1,{luckperms_meta_tfb-language}%'
     Hover:
     - '&eMy votes'
     - '&7Total Votes: &a%votingplugin_total_alltime% &f#&e%votingplugin_top_all_position%'
@@ -27,10 +27,10 @@ Parts:
   MOTD:
     Message:
     - ' '
-    - '<center>%javascript_motdWB_3,{player_locale_short}%'
-    - '<center>%javascript_motdWB_4,{player_locale_short}%'
+    - '<center>%javascript_motdWB_3,{luckperms_meta_tfb-language}%'
+    - '<center>%javascript_motdWB_4,{luckperms_meta_tfb-language}%'
     - ' '
-    - '<center>%javascript_motdWB_6,{player_locale_short}%'
+    - '<center>%javascript_motdWB_6,{luckperms_meta_tfb-language}%'
     - ' '
     - ' '
   discord:

@@ -13,18 +13,18 @@ Parts:
   Header:
     Message:
     - ' '
-    - '                   %javascript_motd_header,{player_locale_short}%'
+    - '                   %javascript_motd_header,{luckperms_meta_tfb-language}%'
   Image:
     Image_Url: https://mc-heads.net/avatar/{player_uuid}
     Image_Height: 8
     Message:
     - ' '
-    - '%javascript_motd_1,{player_locale_short}%'
-    - '%javascript_motd_2,{player_locale_short}%'
-    - '%javascript_motd_3,{player_locale_short}%'
-    - '%javascript_motd_4,{player_locale_short}%'
-    - '%javascript_motd_5,{player_locale_short}%'
-    - '%javascript_motd_6,{player_locale_short}%'
+    - '%javascript_motd_1,{luckperms_meta_tfb-language}%'
+    - '%javascript_motd_2,{luckperms_meta_tfb-language}%'
+    - '%javascript_motd_3,{luckperms_meta_tfb-language}%'
+    - '%javascript_motd_4,{luckperms_meta_tfb-language}%'
+    - '%javascript_motd_5,{luckperms_meta_tfb-language}%'
+    - '%javascript_motd_6,{luckperms_meta_tfb-language}%'
   discord:
     Message: '                                                                                    #5865F2Discord &8|'
     Hover: '#f0f0f0Join our Discord'
