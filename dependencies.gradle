@@ -14,6 +14,7 @@ dependencies {
     implementation 'Plugin:GadgetsMenu:5.18.9'
     implementation 'Plugin:HexNicks:3.1.1'
     implementation 'Plugin:GSit:1.10.0'
+    implementation 'Plugin:floodgate:2.2.3-SNAPSHOT-(b112-0360721)'    
     implementation 'Plugin:LibsDisguises:10.0.44-20241015.200044-1'
     implementation 'Plugin:LuckPerms:5.4.141'
     implementation 'Plugin:Multiverse-Core:4.+'
