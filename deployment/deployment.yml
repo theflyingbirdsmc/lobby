@@ -6,12 +6,11 @@ metadata:
   labels:
     backstage.io/kubernetes-id: lobby
 spec:
-  type: NodePort
+  type: ClusterIP
   ports:
   - name: lobby
     port: 30001
     targetPort: 30001
-    nodePort: 30001
   selector:
     run: lobby
 ---
