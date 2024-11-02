@@ -107,7 +107,7 @@ panels:
       '29':
         material: CRAFTING_TABLE
         stack: 1
-        name: '%javascript_tfb_danish-survival_name,{luckperms_meta_tfb-language}% &8(&7%pinger_gameversion_mc.theflyingbirds.net:30005%&8)'
+        name: '%javascript_tfb_danish-survival_name,{luckperms_meta_tfb-language}% &8(&7%pinger_gameversion_danish-survival:30005%&8)'
         lore:
         - '&eOnline&7: &a%bungee_danish-survival%'
         - '%javascript_tfb_danish-survival_lore,{luckperms_meta_tfb-language}%'
@@ -125,7 +125,7 @@ panels:
       '31':
         material: END_CRYSTAL
         stack: 1
-        name: '%javascript_tfb_lobby_name,{luckperms_meta_tfb-language}% &8(&7%pinger_gameversion_mc.theflyingbirds.net:30001%&8)'
+        name: '%javascript_tfb_lobby_name,{luckperms_meta_tfb-language}% &8(&7%pinger_gameversion_lobby:30001%&8)'
         lore:
         - '&eOnline&7: &a%bungee_lobby%'
         - '%javascript_tfb_lobby_lore,{luckperms_meta_tfb-language}%'
