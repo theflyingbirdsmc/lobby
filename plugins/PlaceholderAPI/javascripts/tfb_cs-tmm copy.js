@@ -1,6 +1,6 @@
 var lang = "";
 var type = "";
-function tfb_english_survival() {
+function tfb_cs_tmm() {
     if (args.length == 2) {
         type = args[0];
         lang = args[1];
@@ -9,10 +9,10 @@ function tfb_english_survival() {
     if (type == "name") {
         switch (lang) {
             case "danish":
-                return "&2Survival";
+                return "#FFFFFFT#FFAFC7h#73D7EEe#3A6C77 #000000M#281A08e#50350Fo#784F17w#BC280C #FF0000M#FF7F00o#FFFF00v#00FF00e#0000FFm#2600C1e#4B0082n#9400D3t";
                 break;
             default:
-                return "&2Survival";
+                return "#FFFFFFT#FFAFC7h#73D7EEe#3A6C77 #000000M#281A08e#50350Fo#784F17w#BC280C #FF0000M#FF7F00o#FFFF00v#00FF00e#0000FFm#2600C1e#4B0082n#9400D3t";
         }
 
     } else if (type == "lore") {
@@ -34,4 +34,4 @@ function tfb_english_survival() {
     } else { return "error"; }
 }
 
-tfb_english_survival();
+tfb_cs_tmm();

@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: true
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: true
+timestamps:
+  lastteleport: 1730063688983
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1730743584423
+  login: 1731092148096
+money: '0'
+last-account-name: Fuglen
+lastlocation:
+  world: 14c49660-6807-4b2b-9fee-75e7033c154f
+  world-name: world_lobby
+  x: 1.1067931815837688
+  y: 71.0
+  z: 4.38907589665073
+  yaw: 165.28759765625
+  pitch: 15.22053050994873
+logoutlocation:
+  world: 14c49660-6807-4b2b-9fee-75e7033c154f
+  world-name: world_lobby
+  x: 1.1473780986150481
+  y: 71.0
+  z: 4.5952190531456205
+  yaw: -25.7091064453125
+  pitch: 42.13432312011719

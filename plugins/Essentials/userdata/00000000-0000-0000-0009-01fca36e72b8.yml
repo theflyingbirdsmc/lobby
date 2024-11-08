@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1730068855072
+  login: 1730068785931
+money: '0'
+last-account-name: .SimonBird883
+lastlocation:
+  world: 14c49660-6807-4b2b-9fee-75e7033c154f
+  world-name: world_lobby
+  x: -13.5
+  y: 72.0
+  z: 9.5
+  yaw: 116.10498046875
+  pitch: 26.542783737182617
+logoutlocation:
+  world: 14c49660-6807-4b2b-9fee-75e7033c154f
+  world-name: world_lobby
+  x: -13.5
+  y: 72.0
+  z: 9.5
+  yaw: 116.10498046875
+  pitch: 26.542783737182617
