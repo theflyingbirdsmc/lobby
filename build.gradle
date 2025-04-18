@@ -10,11 +10,20 @@ buildscript {
     dependencies {
         classpath("org.yaml:snakeyaml:2.0")
     }
+    repositories {
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+    }
+    dependencies {
+        classpath("org.yaml:snakeyaml:2.0")
+    }
 }
 
 plugins {
     id 'java'
     id 'groovy'
+    id 'maven-publish'
     id 'maven-publish'
 }
 
@@ -25,10 +34,16 @@ if ("$System.env.MAVEN_URL" != null) {
     ext.MAVEN_URL = "$System.env.MAVEN_URL" + "/tfb"
     ext.MAVEN_PASSWORD = "$System.env.MAVEN_PASSWORD"
     ext.MAVEN_USERNAME = "$System.env.MAVEN_USERNAME"
+if ("$System.env.MAVEN_URL" != null) {
+    ext.MAVEN_URL = "$System.env.MAVEN_URL" + "/tfb"
+    ext.MAVEN_PASSWORD = "$System.env.MAVEN_PASSWORD"
+    ext.MAVEN_USERNAME = "$System.env.MAVEN_USERNAME"
 }
 
 // TFB repository configuration
 repositories {
+    mavenCentral()
+    maven {
     mavenCentral()
     maven {
         url "${MAVEN_URL}"
@@ -43,6 +58,8 @@ repositories {
 task plugins(type: Copy) {
     doFirst {
         delete fileTree(dir: 'plugins/.', include: '/*.jar')
+    doFirst {
+        delete fileTree(dir: 'plugins/.', include: '/*.jar')
     }
     from configurations.compileClasspath
     exclude '*Paper*', '*FlameCord*', '*Expansion*', 'Purpur*'
@@ -53,6 +70,8 @@ task plugins(type: Copy) {
 task expansions(type: Copy) {
     doFirst {
         delete fileTree(dir: 'plugins/PlaceholderAPI/expansions/.', include: '/*.jar')
+    doFirst {
+        delete fileTree(dir: 'plugins/PlaceholderAPI/expansions/.', include: '/*.jar')
     }
     from configurations.compileClasspath
     include '*Expansion*'
@@ -61,6 +80,8 @@ task expansions(type: Copy) {
 
 // Type "gradle server" in terminal to update server
 task server(type: Copy) {
+    doFirst {
+        delete fileTree(dir: '/.', include: 'server.jar')
     doFirst {
         delete fileTree(dir: '/.', include: 'server.jar')
     }
@@ -75,10 +96,12 @@ task update(dependsOn: ['server', 'plugins', 'expansions'])
 ext.dir = new File("_plugins")
 def files = ext.dir.listFiles().findAll { it.isFile() && it.name.endsWith('.jar') }
 def allowedPrefixes = ["Paper", "FlameCord", "Purpur", "Expansion"]
+def allowedPrefixes = ["Paper", "FlameCord", "Purpur", "Expansion"]
 
 def dists = []
 
 files.each { file ->
+    if (allowedPrefixes.any { prefix -> file.name.startsWith(prefix) } && file.name.endsWith(".jar")) {
     if (allowedPrefixes.any { prefix -> file.name.startsWith(prefix) } && file.name.endsWith(".jar")) {
         def fileName = file.name - '.jar' // Remove the ".jar" extension
         
@@ -155,7 +178,10 @@ publishing {
         dists.each { dist ->
             create(dist.artifactId, MavenPublication) {
                 groupId = dist.groupId
+            create(dist.artifactId, MavenPublication) {
+                groupId = dist.groupId
                 artifactId = dist.artifactId
+                version = dist.version
                 version = dist.version
 
                 artifact dist.path
@@ -168,7 +194,14 @@ publishing {
             credentials {
                 username = "${MAVEN_USERNAME}"
                 password = "${MAVEN_PASSWORD}"
+    repositories {
+        maven {
+            url = "${MAVEN_URL}"
+            credentials {
+                username = "${MAVEN_USERNAME}"
+                password = "${MAVEN_PASSWORD}"
             }
         }
     }
 }
+
