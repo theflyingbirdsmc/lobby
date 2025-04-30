@@ -10,7 +10,7 @@ dependencies {
     implementation 'Plugin:EssentialsSpawn:2.21.0'
     implementation 'Plugin:EssentialsGeoIP:2.21.0'
     implementation 'Plugin:FastAsyncWorldEdit:2.13.1-SNAPSHOT-1089-d1865b6'
-    implementation 'Plugin:GadgetsMenu:5.20.3'
+    implementation 'Plugin:GadgetsMenu:5.21.0'
     implementation 'Plugin:HexNicks:3.1.2'
     implementation 'Plugin:GSit:2.3.1'
     // implementation 'Plugin:floodgate:2.2.3-SNAPSHOT-(b114-83fbd6e)'
