@@ -24,7 +24,7 @@ ignore command /brush|/auction|/auc|/register|/reg|/login|l
 # Ignore WorldEdit
 ignore command //
 
-then warn {warn_prefix} Please do not advertise other websites or IP addresses.
+then warn {prefix_warn} Please do not advertise other websites or IP addresses.
 
 # Notify players with "chatcontrol.notify.ad" permission.
 # 1) First part after "then notify" is the permission players need to see the second part.
@@ -48,7 +48,7 @@ ignore command /brush|/auction|/auc|/register|/reg|/login|l
 # Ignore WorldEdit
 ignore command //
 
-then warn {warn_prefix} Swearing is prohibited on this server.
+then warn {prefix_warn} Swearing is prohibited on this server.
 
 # Notify players with "chatcontrol.notify.ad" permission.
 # 1) First part after "then notify" is the permission players need to see the second part.

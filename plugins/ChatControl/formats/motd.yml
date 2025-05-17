@@ -13,36 +13,37 @@ Parts:
   Header:
     Message:
     - ' '
-    - '                   %javascript_motd_header,{luckperms_meta_tfb-language}%'
+    - '                   {javascript_motd_header,{luckperms_meta_tfb-language}}'
+    - ''
   Image:
-    Image_Url: https://mc-heads.net/avatar/{player_uuid}
+    Image_Head: '{player}'
     Image_Height: 8
     Message:
     - ' '
-    - '%javascript_motd_1,{luckperms_meta_tfb-language}%'
-    - '%javascript_motd_2,{luckperms_meta_tfb-language}%'
-    - '%javascript_motd_3,{luckperms_meta_tfb-language}%'
-    - '%javascript_motd_4,{luckperms_meta_tfb-language}%'
-    - '%javascript_motd_5,{luckperms_meta_tfb-language}%'
-    - '%javascript_motd_6,{luckperms_meta_tfb-language}%'
+    - '{javascript_motd_1,{luckperms_meta_tfb-language}}'
+    - '{javascript_motd_2,{luckperms_meta_tfb-language}}'
+    - '{javascript_motd_3,{luckperms_meta_tfb-language}}'
+    - '{javascript_motd_4,{luckperms_meta_tfb-language}}'
+    - '{javascript_motd_5,{luckperms_meta_tfb-language}}'
+    - '{javascript_motd_6,{luckperms_meta_tfb-language}}'
   discord:
-    Message: '                                                                                    #5865F2Discord &8|'
-    Hover: '#f0f0f0Join our Discord'
+    Message: '                                                                                    <#5865F2>Discord &8|'
+    Hover: '<#f0f0f0>Join our Discord'
     Open_Url: https://discord.theflyingbirds.net
   github:
-    Message: ' #f0f0f0Github &8|'
-    Hover: '#f0f0f0View our source code!'
+    Message: ' <#f0f0f0>Github &8|'
+    Hover: '<#f0f0f0>View our source code!'
     Open_Url: https://discord.theflyingbirds.net
   menu:
-    Message: ' #235babShop &8|'
-    Hover: '#f0f0f0Visit our shop!'
+    Message: ' <#235bab>Shop &8|'
+    Hover: '<#f0f0f0>Visit our shop!'
     Open_Url: https://shop.theflyingbirds.net
   stats:
-    Message: ' #368F17Statistics &8|'
-    Hover: '#f0f0f0View statistics of players!'
+    Message: ' <#368F17>Statistics &8|'
+    Hover: '<#f0f0f0>View statistics of players!'
     Open_Url: https://stats.theflyingbirds.net
   youtube:
-    Message: ' #FF0000Youtube'
-    Hover: '#f0f0f0Check out our channel!'
+    Message: ' <#FF0000>Youtube'
+    Hover: '<#f0f0f0>Check out our channel!'
     Open_Url: https://youtube.com/user/theflyingbirdsmc
     #- "&7The chat is NOT monitored and we respect your privacy rights. Just kidding."

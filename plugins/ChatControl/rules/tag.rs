@@ -11,6 +11,6 @@
 #then deny
 
 # Prevent players writing variables to their tags.
-match [({|%)]([^{}]+)[(}|%)]
+match [({|{)]([^{}]+)[(}|})]
 then warn {prefix_error}You cannot use variables in your tag!
 then deny

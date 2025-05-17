@@ -1,6 +1,5 @@
 # -----------------------------------------------------------------------------------------
-# The default spy format shown to players spying a third party plugin party channel,
-# such as mcMMO or TownyChat
+# The default spy format shown to players spying channels.
 #
 # See chat.yml for documentation on all available options in the "Parts" section.
 # -----------------------------------------------------------------------------------------
@@ -18,15 +17,22 @@ Parts:
     Receiver_Permission: chatcontrol.removemessages
     Hover:
     - '&cRemove this message from chat for all players.'
-    Run_Command: /{label} internal remove {message_uuid}
+    Run_Command: /{label_main} internal remove {message_uuid}
 
   spies-prefix:
-    Message: '&8[&5Party Spy&8] &f'
+    Message: '&8[&5Spy&8] &f'
+    Hover:
+    - '&dClick to stop spying {channel} channel.'
+    Run_Command: /{label_spy} toggle chat {channel}
 
   channel:
     Message: '&8[&9{channel}&8] &f'
+    Hover:
+    - '&dClick to stop spying {channel} channel.'
+    Run_Command: /{label_spy} toggle chat {channel}
 
   player-name:
+    #Message: "{player_nick}"
     Message: '{player_name}'
     Hover:
     - '&7Click to message.'

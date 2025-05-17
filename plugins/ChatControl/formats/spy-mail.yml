@@ -1,5 +1,7 @@
 # -----------------------------------------------------------------------------------------
-# The default chat format shown to the receiver of a private message.
+# The default chat format shown to spying players when a mail is sent.
+# In addition to player variables you can use these:
+# {sender} {receivers} {mail_title}
 #
 # See chat.yml for documentation on all available options in the "Parts" section.
 # -----------------------------------------------------------------------------------------
@@ -12,13 +14,10 @@ New_Line_Per_Part: false
 Parts:
   
   # See the chat.yml format file for a tutorial on how this works.
-  # You can use {receiver_prefix} to show the receiver's prefix. Does not work on bungee.
-  everything:
-    Message: '&c[PM] &8[&f{sender} &7-> &f{receiver_or_you}&8] &f{message}'
+  front:
+    Message: '&7{player} sent mail ''{mail_title}'' to {mail_receivers}: '
+  content:
+    Message: '[click to read]'
     Hover:
-    - '&fPrivate Message'
-    - '&3Received: &f{timestamp}'
-    - '&3Sender: &f{sender}'
-    - ''
-    - '&7Click to reply.'
-    Suggest_Command: '/r '
+    - '&6Click to open the book.'
+    Run_Command: /mail open {mail_uuid} -donotmarkasread

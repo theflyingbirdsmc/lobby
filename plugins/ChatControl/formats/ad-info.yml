@@ -21,6 +21,6 @@ Parts:
     - ' '
     - ' &7Player: &f{player}'
     - ' &7Message: &f{message}'
-    - ' &7Time: &f{timestamp}'
+    - ' &7Time: &f{date}'
     - '&4&m--------------------------------------------------'
     #Suggest_Command: "/tempban {player} 10m Advertising is not allowed!"

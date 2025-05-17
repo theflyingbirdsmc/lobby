@@ -13,11 +13,11 @@ Parts:
   
   # See the chat.yml format file for a tutorial on how this works.
   everything:
-    Message: '&c[PM] &8[&fyou &7-> &f{receiver}&8] &f{message}'
+    Message: '&c[PM] &8[&fyou &7-> &f{receiver_name}&8] &f{message}'
     Hover:
     - '&fPrivate Message'
-    - '&3Received: &f{timestamp}'
-    - '&3Sender: &f{sender}'
+    - '&3Received: &f{date}'
+    - '&3Sender: &f{sender_name}'
     - ''
     - '&7Click to reply.'
     Suggest_Command: '/r '

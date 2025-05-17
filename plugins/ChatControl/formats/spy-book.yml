@@ -20,4 +20,4 @@ Parts:
     Message: '[click to read]'
     Hover:
     - '&6Click to open the book.'
-    Run_Command: /{label} internal book {book_uuid}
+    Run_Command: /{label_main} internal book {book_uuid}
