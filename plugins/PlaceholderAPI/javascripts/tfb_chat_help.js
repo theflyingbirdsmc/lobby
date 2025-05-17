@@ -1,17 +1,17 @@
 var lang = "";
 var type = "";
 function danishStatus() {
-    if ('%chatcontrolred_player_channel_mode_TFB-Help%' === "read")
+    if ('%chatcontrol_player_channel_mode_TFB-Help%' === "read")
         return "&blæser";
-    else if ('%chatcontrolred_player_channel_mode_TFB-Help%' === "write")
+    else if ('%chatcontrol_player_channel_mode_TFB-Help%' === "write")
         return "&askriver";
     else return "&cingen"
 }
 
 function englishStatus() {
-    if ('%chatcontrolred_player_channel_mode_TFB-Help%' === "read")
+    if ('%chatcontrol_player_channel_mode_TFB-Help%' === "read")
         return "&breading";
-    else if ('%chatcontrolred_player_channel_mode_TFB-Help%' === "write")
+    else if ('%chatcontrol_player_channel_mode_TFB-Help%' === "write")
         return "&awriting";
     else return "&cnone"
 }
