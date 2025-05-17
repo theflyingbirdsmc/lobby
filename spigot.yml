@@ -58,6 +58,7 @@ commands:
   - /skill
   silent-commandblock-console: false
   log: true
+  enable-spam-exclusions: false
 players:
   disable-saving: false
 stats:
