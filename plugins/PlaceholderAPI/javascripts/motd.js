@@ -9,19 +9,19 @@ function translate() {
     if (type == "header") {
         switch (lang) {
             case "danish":
-                return "             #f0f0f0Velkommen til #ee2b23T#f04923h#f26622e #3551d7F#366dd9l#3789dby#38a4ddi#39c0dfn#3adce1g #00ff00B#3fff00i#7dff00r#bcff00d#faff00s";
+                return "             <#f0f0f0>Velkommen til <#ee2b23>T<#f04923>h<#f26622>e <#3551d7>F<#366dd9>l<#3789db>y<#38a4dd>i<#39c0df>n<#3adce1>g <#00ff00>B<#3fff00>i<#7dff00>r<#bcff00>d<#faff00>s";
                 break;
             default:
-                return "              #f0f0f0Welcome to #ee2b23T#f04923h#f26622e #3551d7F#366dd9l#3789dby#38a4ddi#39c0dfn#3adce1g #00ff00B#3fff00i#7dff00r#bcff00d#faff00s";
+                return "              <#f0f0f0>Welcome to <#ee2b23>T<#f04923>h<#f26622>e <#3551d7>F<#366dd9>l<#3789db>y<#38a4dd>i<#39c0df>n<#3adce1>g <#00ff00>B<#3fff00>i<#7dff00>r<#bcff00>d<#faff00>s";
         }
 
     } else if (type == "1") {
         switch (lang) {
             case "danish":
-                return "  #f0f0f0Brug &akompasset #f0f0f0eller &a/tfb #f0f0f0for at komme i gang";
+                return "  <#f0f0f0>Brug &akompasset <#f0f0f0>eller &a/tfb <#f0f0f0>for at komme i gang";
                 break;
             default:
-                return "      #f0f0f0Use the &acompass #f0f0f0or &a/tfb #f0f0f0to get started";
+                return "      <#f0f0f0>Use the &acompass <#f0f0f0>or &a/tfb <#f0f0f0>to get started";
         }
     } else if (type == "2") {
         switch (lang) {
@@ -34,18 +34,18 @@ function translate() {
     } else if (type == "3") {
         switch (lang) {
             case "danish":
-                return "                   #f0f0f0Henvist af en ven?";
+                return "                   <#f0f0f0>Henvist af en ven?";
                 break;
             default:
-                return "                 #f0f0f0Referred by a friend?";
+                return "                 <#f0f0f0>Referred by a friend?";
         }
     } else if (type == "4") {
         switch (lang) {
             case "danish":
-                return "         #f0f0f0Brug &a/refer &8<&aven&8> #f0f0f0for belønninger!";
+                return "         <#f0f0f0>Brug &a/refer &8<&aven&8> <#f0f0f0>for belønninger!";
                 break;
             default:
-                return "          #f0f0f0Use &a/refer &8<&afriend&8> #f0f0f0for rewards!";
+                return "          <#f0f0f0>Use &a/refer &8<&afriend&8> <#f0f0f0>for rewards!";
         }
     } else if (type == "5") {
         switch (lang) {
@@ -58,10 +58,10 @@ function translate() {
     } else if (type == "6") {
         switch (lang) {
             case "danish":
-                return "    #f0f0ffVi håber, at din tid hos os når nye højder!";
+                return "    <#f0f0ff>Vi håber, at din tid hos os når nye højder!";
                 break;
             default:
-                return " #f0f0f0We hope your time with us soars to new heights!";
+                return " <#f0f0f0>We hope your time with us soars to new heights!";
         }
     } else { return "error"; }
 }

@@ -1,0 +1,33 @@
+VoteShop:
+  Enabled: true
+  Name: VoteShop
+  BackButton: true
+  # Hide items in vote shop which user can not buy
+  HideLimitedReached: true
+  # Requires above to be false
+  LimitReached: '&aYou reached your limit'
+  RequireConfirmation: false
+  Disabled: '&cVote shop disabled'
+  # If true, shop gui will reopen, updating all placeholders
+  ReopenGUIOnPurchase: false
+  HideLimitReached: true
+
+Shop: {}
+
+# VoteShop extra items for display only
+# ExtraItems:
+# ItemIdentifier:
+# ...
+
+ShopConfirmPurchase:
+  Title: Confirm Purchase?
+  YesItem:
+    Material: EMERALD_BLOCK
+    Amount: 1
+    Name: '&aYes'
+  NoItem:
+    Material: BARRIER
+    Amount: 1
+    Name: '&cNo'
+
+

@@ -13,8 +13,6 @@ Plugin:
   plugin-disabled: '[P]&a The plugin was successfully disabled.'
   plugin-prefix: '&7[&6GSit&7]'
 
-
-
 Messages:
   
   command-permission-error: '[P]&c You don''t have permission to use this command!'

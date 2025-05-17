@@ -242,9 +242,6 @@
 # Found in the disguise options for Boat and uses a int
 "setBoatShake": "setBoatShake"
 
-# Found in the disguise options for Boat and uses a TreeSpecies
-"setBoatType": "setBoatType"
-
 # Found in the disguise options for Boat and uses a float
 "setDamage": "setDamage"
 
@@ -328,8 +325,6 @@
 
 # Found in the disguise options for FallingBlock and uses a ItemStack
 "setBlock": "setBlock"
-
-# Found in the disguise options for FallingBlock and uses a BlockData
 
 # Found in the disguise options for FallingBlock and uses a boolean
 "setGridLocked": "setGridLocked"
@@ -681,3 +676,22 @@
 
 # Found in the disguise options for Wolf and uses a Color
 "setWolfArmorColor": "setWolfArmorColor"
+# Found in the disguise options for Entity and uses a boolean
+"setReplaceSounds": "setReplaceSounds"
+
+# Found in the disguise options for Entity and uses a TallSelfDisguise
+"setTallSelfDisguise": "setTallSelfDisguise"
+
+# Found in the disguise options for Entity and uses a boolean
+"setTallSelfDisguisesScaling": "setTallSelfDisguisesScaling"
+
+# Found in the disguise options for BlockDisplay and uses a boolean
+"setAutoCentered": "setAutoCentered"
+# Found in the disguise options for Creaking and uses a boolean
+"setBrightEyes": "setBrightEyes"
+
+# Found in the disguise options for Creaking and uses a boolean
+"setMovementAnimations": "setMovementAnimations"
+
+# Found in the disguise options for Creaking and uses a boolean
+"setTearingDown": "setTearingDown"
