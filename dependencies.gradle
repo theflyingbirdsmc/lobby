@@ -17,6 +17,7 @@ dependencies {
     implementation 'Plugin:LibsDisguises:11.0.5'
     implementation 'Plugin:LuckPerms:5.4.158'
     implementation 'Plugin:Multiverse-Core:4.3.16'
+    implementation 'Plugin:VoidGen:2.2.1'
     implementation 'Plugin:PlaceholderAPI:2.11.6'
     implementation 'Plugin:ProtocolLib:5.3.0'
     implementation 'Plugin:Plan:5.6-build-2965'
